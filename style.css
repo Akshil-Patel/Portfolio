@@ -1,6 +1,7 @@
 html{
     scroll-behavior: smooth;
-    scrollbar-color: #986BD3;
+    /* scrollbar-color: #986BD3; */
+    cursor: url('/images/customCursor.png'),crosshair;
 }
 
 body{
