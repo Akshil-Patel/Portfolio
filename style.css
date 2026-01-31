@@ -125,6 +125,7 @@ h1{
     font-family: 'Monomaniac One';
     margin-top: 30px;
     border-radius: 15px;
+    color: black;
     background-color: #ECECEC;
     opacity: 80%;
     transition: 0.5s;
