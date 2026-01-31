@@ -1,0 +1,189 @@
+body{
+    background-color: #161616;
+}
+
+h1{
+    color: white;
+    font-family: 'Tourney',sans-serif;
+}
+
+
+.tourney-heading {
+  font-family: "Tourney", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 50;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 50px;
+}
+
+#hero-section{
+    height: 625px;
+    width:100%;
+    /* background-color: white; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#logo{
+    color: white;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 45px;
+    position: absolute;
+    left: 30px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 2px;
+    /* border: 2px solid white; */
+
+}
+
+#navBar a{
+    color: white;
+    text-decoration: none;
+}
+
+
+#navBar{
+    position: absolute;
+    /* right: 10; */
+    right: 30px;
+    top: 10px;
+    height: 50px;
+    /* border: 2px solid white; */
+    /* text-align: center;;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gugi', Arial, Helvetica, sans-serif;
+    font-size:16px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; */
+}
+
+#homeText{
+    width: 100%;
+    height: 559px;
+    /* border: 2px solid red; */
+    top: 10%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.title{
+    width: 100%;
+    color: #A6A6A6;
+    font-family: 'Monomaniac One';
+    text-align: center;
+    font-size: 30px;
+    /* border: 2px solid white; */
+}
+
+#mainText{
+    color:white;
+    /* border: 2px solid blue; */
+    font-family: 'Tourney';
+    font-size: 60px;
+    
+}
+
+.bodyText{
+    color: #A6A6A6;
+    font-family: 'Gugi';
+    width: 600px;
+    text-align: center;
+}
+
+#Buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;   
+}
+
+.button{
+    /* border: 2px solid red; */
+    padding: 10px 40px;
+    font-size: 25px;
+    border-radius: 6px;
+    font-family: 'Monomaniac One';
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: #ECECEC;
+    opacity: 80%;
+    transition: 0.5s;
+    letter-spacing: 5px;
+}
+
+.button:hover{
+    background-color: #986BD3;
+    color: white;
+}
+
+#skills-section{
+    border: 2px solid blue;
+    width: 100%;
+    height: 625px;
+    justify-content: center;
+}
+
+#skillsText{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: baseline;
+    height: 170px;
+    border: 2px solid purple;
+    margin-top: 10px;
+}
+.title2{
+    color:#A6A6A6;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    width: 100%;
+    /* border: 2px red solid; */
+}
+
+#skillsIcons{
+    font-size: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.material-symbols-outlined{
+    font-size: 50px;
+    color: white;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 500,
+        'GRAD' 0,
+        'opsz' 48;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icons{
+    border: 2px white solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
