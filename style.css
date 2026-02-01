@@ -2,6 +2,7 @@ html{
     scroll-behavior: smooth;
     /* scrollbar-color: #986BD3; */
     cursor: url('/images/customCursor.png'),crosshair;
+    scrollbar-width: none;
 }
 
 body{
